@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#10110e">
   <meta name="color-scheme" content="dark">
   <title>Bet Record Kit</title>
-  <meta name="description" content="A record of your bets, not a way to win. Bet log, bankroll page, and a weekly result sheet. $37.">
+  <meta name="description" content="You remember the feeling. Not what you bet. A record of your bets, not a way to win. The kit is $37.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,13 +14,23 @@
     <header class="mast">
       <h1>Bet Record</h1>
       <p class="honest">A record of your bets, not a way to win.</p>
+      <p class="feeling">You remember the feeling. Not what you bet.</p>
     </header>
 
     <section class="kit" aria-labelledby="kit-title">
-      <p class="who">For people who already bet</p>
-      <h2 id="kit-title">Bet Record Kit</h2>
-      <p class="what">Bet log, bankroll page, and a weekly result sheet. The bet, the stake, and the result, written down, so you are not guessing from memory.</p>
-      <p class="price"><span class="usd">$</span>37</p>
+      <figure class="cover">
+        <img
+          src="images/bet-log.png"
+          width="840"
+          height="520"
+          alt="A blank bet log. Columns for the date, the bet, the stake, and the result, plus lines for what you set aside and what is left."
+          fetchpriority="high">
+        <figcaption>Bet log, bankroll page, and a weekly result sheet.</figcaption>
+      </figure>
+      <div class="score">
+        <h2 id="kit-title">Bet Record Kit</h2>
+        <p class="price"><span class="usd">$</span>37</p>
+      </div>
       <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
       <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
     </section>
@@ -57,8 +67,8 @@
 
     <section class="kit kit-again" aria-labelledby="kit-again-title">
       <h2 id="kit-again-title">Bet Record Kit</h2>
-      <p class="what">Bet log, bankroll page, and a weekly result sheet.</p>
-      <p class="price"><span class="usd">$</span>37</p>
+      <p class="what">The bet log, the bankroll page, and the week result sheet.</p>
+      <p class="price price-again"><span class="usd">$</span>37</p>
       <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
       <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
     </section>
@@ -66,7 +76,15 @@
     <section class="delivery" aria-labelledby="delivery-title">
       <h2 id="delivery-title">Instant PDF</h2>
       <p class="delivery-lead">Print it. Fill it in.</p>
-      <p>You get the file right away. Print a copy and write in the bets you placed, the stake, and the result.</p>
+      <figure class="cover cover-use">
+        <img
+          src="images/bet-log-pencil.png"
+          width="840"
+          height="520"
+          alt="The same bet log, with a pencil resting on the blank rows."
+          loading="lazy">
+      </figure>
+      <p>The file comes right away. Write the bet, the stake, and the result.</p>
     </section>
 
     <footer class="colophon">

@@ -33,5 +33,6 @@ There is no build step. `.nojekyll` is included.
 - `styles.css` — layout
 - `store.js` — the kit button
 - `checkout.config.js` — empty checkout URLs
-- `fonts/` — Instrument Serif, used for the question
+- `fonts/` — Instrument Serif, used for the line
+- `images/waiting.jpg` — the first screen: someone waiting, hands empty
 - `.nojekyll` — turn off Jekyll processing

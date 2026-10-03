@@ -33,5 +33,7 @@ Then visit `http://localhost:8080`. There is no build step. `.nojekyll` is inclu
 - `styles.css` — night scoreboard layout
 - `store.js` — checkout buttons
 - `checkout.config.js` — empty checkout URLs
+- `images/bet-log.png` — the blank bet log
+- `images/bet-log-pencil.png` — the same log with a pencil
 - `fonts/` — Barlow, under the SIL Open Font License (`fonts/OFL.txt`)
 - `.nojekyll` — turn off Jekyll processing

@@ -32,6 +32,7 @@
       if (!url || !allowed(url)) {
         if (note) {
           note.textContent = "Checkout is not connected yet.";
+          note.scrollIntoView({ block: "nearest", inline: "nearest" });
         }
         return;
       }

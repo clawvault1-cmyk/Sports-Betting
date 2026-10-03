@@ -1,17 +1,17 @@
 # Bet Record Kit
 
-A one-page static store for a paper record of bets you already placed. The sample week on the page is made up. It is down $87. The pages do not tell you what to bet.
+A one-page static store for a record of bets already placed. It is not a way to win.
 
 ## Offers
 
 | Offer | Price | What it is |
 | --- | --- | --- |
-| Bet Record Kit | $37 | Bet log, bankroll page, and week result sheet |
-| Bet Log | $17 | Stake, odds, and how it settled |
+| Bet Record Kit | $37 | The bet log, the bankroll page, and the week result sheet |
+| Bet Log | $17 | Every bet, the stake, and how it settled |
 | Bankroll Page | $12 | What you set aside, and what is left |
 | Week Result Sheet | $15 | The week on one page |
 
-The three files apart are $17 + $12 + $15 = $44. The only solid buy button is the $37 kit.
+The three files apart are $17 + $12 + $15 = $44. The only buy button is the $37 kit.
 
 ## Run
 
@@ -33,5 +33,5 @@ There is no build step. `.nojekyll` is included.
 - `styles.css` — layout
 - `store.js` — the kit button
 - `checkout.config.js` — empty checkout URLs
-- `images/` — filled sample pages, labeled as made-up
+- `fonts/` — Instrument Serif, used for the question
 - `.nojekyll` — turn off Jekyll processing

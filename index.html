@@ -3,167 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#ebe4d6">
-  <meta name="color-scheme" content="light">
-  <title>Bet Record Kit</title>
-  <meta name="description" content="You remember the feeling. Not what you bet. A paper record of bets you already made. The kit is $37.">
+  <meta name="theme-color" content="#12110e">
+  <meta name="color-scheme" content="dark">
+  <title>How much actually went out?</title>
+  <meta name="description" content="You cannot say what the bets came to. A record of bets already placed. $37.">
+  <link rel="preload" href="fonts/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="board">
-    <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-    <figure class="sheet hero-sheet">
-      <img
-        src="images/bet-log-hero.png"
-        width="800"
-        height="536"
-        alt="Sample bet log on ruled paper, made-up games. First row: Monday, Bills at Ravens, Ravens −3, stake $25, odds −110, settled as a loss of $25."
-        fetchpriority="high">
-    </figure>
-
-    <p class="eyebrow">Bet Record Kit</p>
-    <h1>You remember the feeling. Not what you bet.</h1>
-    <p class="subhead">A record of your bets, not a way to win.</p>
-    <p class="monday">Monday, and you cannot say the stake.</p>
-    <button type="button" class="buy" data-sku="kit">Get the kit, $37</button>
-    <p class="quiet">The three files apart are $44.</p>
-
-    <section class="block" aria-labelledby="week-title">
-      <h2 id="week-title">The same week</h2>
-      <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-      <figure class="sheet">
-        <img
-          src="images/bet-log-week.png"
-          width="800"
-          height="864"
-          alt="The same made-up week on one page. Seven bets. Handwritten footer: out $170, back $38 on the two wins, down $87.">
-      </figure>
-      <p>7 bets, $170 put out, 2 wins, 1 push, 4 losses, down $87.</p>
-    </section>
-
-    <section class="block plain">
-      <p>This will not help you win. It will not tell you what to bet. It will not say whether you are any good.</p>
-      <p>Three pages you print and fill in yourself.</p>
-    </section>
-
-    <section class="block" aria-labelledby="files-title">
-      <h2 id="files-title">The three files</h2>
-
-      <article class="file">
-        <h3>Bet Log</h3>
-        <p>Stake, odds, and how it settled.</p>
-        <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-        <figure class="sheet">
-          <img
-            src="images/bet-log-hero.png"
-            width="800"
-            height="536"
-            alt="Filled bet log crop. Stakes, odds, and settled results, including losses, from made-up games.">
-        </figure>
-        <p class="file-price">$17</p>
-      </article>
-
-      <article class="file">
-        <h3>Bankroll Page</h3>
-        <p>Set aside $400. This week down $87. $313 left.</p>
-        <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-        <figure class="sheet">
-          <img
-            src="images/bankroll-page.png"
-            width="800"
-            height="644"
-            alt="Bankroll page. Set aside this month $400. This week −$87. Left $313. Pending none. Largest stake was $50. It lost.">
-        </figure>
-        <p class="file-price">$12</p>
-      </article>
-
-      <article class="file">
-        <h3>Week Result Sheet</h3>
-        <p>How many, how much out, how it settled, what is left.</p>
-        <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-        <figure class="sheet">
-          <img
-            src="images/week-result-sheet.png"
-            width="800"
-            height="1006"
-            alt="Week result sheet for the made-up week of Sep 21. 7 bets, 2 wins, 1 push, 4 losses, $170 put out, down $87, $313 left of $400.">
-        </figure>
-        <p class="file-price">$15</p>
-      </article>
-    </section>
-
-    <section class="block" aria-labelledby="cells-title">
-      <h2 id="cells-title">Still written down</h2>
-      <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-      <div class="cells">
-        <figure>
-          <img src="images/cell-stake.png" width="560" height="252" alt="Handwritten stake of $50 on ruled paper. Made-up. Not a pick.">
-          <figcaption>The stake.</figcaption>
-        </figure>
-        <figure>
-          <img src="images/cell-odds.png" width="560" height="252" alt="Handwritten odds of −110 on ruled paper. Made-up. Not a pick.">
-          <figcaption>The odds.</figcaption>
-        </figure>
-        <figure>
-          <img src="images/cell-loss.png" width="560" height="366" alt="Handwritten settlement: Loss −$50. Made-up. Not a pick.">
-          <figcaption>The loss.</figcaption>
-        </figure>
+  <main>
+    <section class="hero">
+      <h1>How much<br>actually<br>went out?</h1>
+      <p class="line">You cannot say<br>what the bets came to.</p>
+      <div class="offer">
+        <p class="price">$37</p>
+        <button type="button" class="buy" data-sku="kit">Get the record</button>
       </div>
-      <p>A week later these are still written down. That is the whole product.</p>
     </section>
 
-    <section class="block" aria-labelledby="arrives-title">
-      <h2 id="arrives-title">What arrives</h2>
-      <p class="sample">Sample. Made-up games and prices. Not a pick.</p>
-      <figure class="sheet">
-        <img
-          src="images/three-pages.png"
-          width="800"
-          height="640"
-          alt="Three printed pages on a table, already filled with the made-up week, and a pen beside them. No hand.">
-      </figure>
-      <ul class="arrives">
-        <li>Instant PDF.</li>
-        <li>Three files.</li>
-        <li>US Letter.</li>
-        <li>Print at home.</li>
-        <li>Write in pen.</li>
-        <li>Print another when the page is full.</li>
+    <section class="cost" aria-labelledby="cost-title">
+      <h2 id="cost-title">The month does not match the story.</h2>
+      <p>The charge is already there. It is not the story you can tell. A win is easy to say again. A loss is in a screenshot you will not open while someone is standing there.</p>
+      <p>So it stays “about even.” With no figure, the fight is about whether you are being straight. You also stake the same thing twice. The first one only lived in your head.</p>
+    </section>
+
+    <section class="relief" aria-labelledby="relief-title">
+      <h2 id="relief-title">One record. The losses are in it.</h2>
+      <p>Someone asks how much went out. You answer with a number you can both look at. The month is not a surprise you find in the bank. If there is a fight, it is about that figure.</p>
+      <p class="limit">A record of bets already placed. Not a way to win.</p>
+    </section>
+
+    <section class="apart" aria-labelledby="apart-title">
+      <h2 id="apart-title">Or one file</h2>
+      <ul>
+        <li>
+          <span class="name">Bet Log</span>
+          <span class="what">Every bet, the stake, and how it settled.</span>
+          <span class="amt">$17</span>
+        </li>
+        <li>
+          <span class="name">Bankroll Page</span>
+          <span class="what">What you set aside, and what is left.</span>
+          <span class="amt">$12</span>
+        </li>
+        <li>
+          <span class="name">Week Result Sheet</span>
+          <span class="what">The week on one page.</span>
+          <span class="amt">$15</span>
+        </li>
       </ul>
-      <p>Not an app. Not a subscription. Nothing shipped.</p>
-    </section>
-
-    <section class="block" aria-labelledby="price-title">
-      <h2 id="price-title">The price</h2>
-      <div class="stack">
-        <div class="stack-kit">
-          <span>Bet Record Kit</span>
-          <span>$37</span>
-        </div>
-        <ul>
-          <li><span>Bet Log</span><span>$17</span></li>
-          <li><span>Bankroll Page</span><span>$12</span></li>
-          <li><span>Week Result Sheet</span><span>$15</span></li>
-        </ul>
-      </div>
-      <p class="quiet">The three files apart are $44.</p>
-      <button type="button" class="buy" data-sku="kit">Get the kit, $37</button>
-    </section>
-
-    <section class="block" aria-labelledby="not-title">
-      <h2 id="not-title">What it is not</h2>
-      <p>No picks. A losing week stays on the page. The sample is not a suggestion.</p>
-    </section>
-
-    <section class="close">
-      <p class="close-line">You remember the feeling. Not what you bet.</p>
-      <p class="subhead">A record of your bets, not a way to win.</p>
-      <button type="button" class="buy" data-sku="kit">Get the kit, $37</button>
+      <p class="sum">Apart, those are $44.</p>
+      <button type="button" class="buy" data-sku="kit">Get the record</button>
+      <p class="arrive">Instant PDF. Print it and write in it. Not an app.</p>
     </section>
 
     <p id="checkout-note" class="checkout-note" role="status" aria-live="polite"></p>
     <noscript>
-      <p class="noscript">Turn on JavaScript to use the checkout button.</p>
+      <p class="noscript">Turn on JavaScript to use the button.</p>
     </noscript>
   </main>
   <script src="checkout.config.js"></script>

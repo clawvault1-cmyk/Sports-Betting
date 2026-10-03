@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10110e">
+  <meta name="color-scheme" content="dark">
+  <title>Bet Record Kit</title>
+  <meta name="description" content="A record of your bets, not a way to win. Bet log, bankroll page, and a weekly result sheet. $37.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="board">
+    <header class="mast">
+      <h1>Bet Record</h1>
+      <p class="honest">A record of your bets, not a way to win.</p>
+    </header>
+
+    <section class="kit" aria-labelledby="kit-title">
+      <p class="who">For people who already bet</p>
+      <h2 id="kit-title">Bet Record Kit</h2>
+      <p class="what">Bet log, bankroll page, and a weekly result sheet. The bet, the stake, and the result, written down, so you are not guessing from memory.</p>
+      <p class="price"><span class="usd">$</span>37</p>
+      <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
+      <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
+    </section>
+
+    <section class="pick" aria-labelledby="pick-title">
+      <h2 id="pick-title">Or pick one</h2>
+      <ol class="items">
+        <li class="item">
+          <div class="item-head">
+            <h3><span class="idx">01</span> Bet Log</h3>
+            <p class="item-price"><span class="usd">$</span>17</p>
+          </div>
+          <p>Every bet, stake, and result in one place.</p>
+          <button type="button" class="buy" data-sku="betLog">Get the Bet Log</button>
+        </li>
+        <li class="item">
+          <div class="item-head">
+            <h3><span class="idx">02</span> Bankroll Page</h3>
+            <p class="item-price"><span class="usd">$</span>12</p>
+          </div>
+          <p>What you set aside, what is left.</p>
+          <button type="button" class="buy" data-sku="bankrollPage">Get the Bankroll Page</button>
+        </li>
+        <li class="item">
+          <div class="item-head">
+            <h3><span class="idx">03</span> Week Result Sheet</h3>
+            <p class="item-price"><span class="usd">$</span>15</p>
+          </div>
+          <p>The week's record on one page.</p>
+          <button type="button" class="buy" data-sku="weekResultSheet">Get the Week Result Sheet</button>
+        </li>
+      </ol>
+    </section>
+
+    <section class="kit kit-again" aria-labelledby="kit-again-title">
+      <h2 id="kit-again-title">Bet Record Kit</h2>
+      <p class="what">Bet log, bankroll page, and a weekly result sheet.</p>
+      <p class="price"><span class="usd">$</span>37</p>
+      <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
+      <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
+    </section>
+
+    <section class="delivery" aria-labelledby="delivery-title">
+      <h2 id="delivery-title">Instant PDF</h2>
+      <p class="delivery-lead">Print it. Fill it in.</p>
+      <p>You get the file right away. Print a copy and write in the bets you placed, the stake, and the result.</p>
+    </section>
+
+    <footer class="colophon">
+      <p>Blank pages for a record you keep yourself.</p>
+    </footer>
+
+    <p id="checkout-note" class="checkout-note" role="status" aria-live="polite"></p>
+    <noscript>
+      <p class="noscript">Turn on JavaScript to use the checkout buttons.</p>
+    </noscript>
+  </main>
+  <script src="checkout.config.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>

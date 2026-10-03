@@ -3,97 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#10110e">
-  <meta name="color-scheme" content="dark">
-  <title>Bet Record Kit</title>
-  <meta name="description" content="You remember the feeling. Not what you bet. A record of your bets, not a way to win. The kit is $37.">
+  <meta name="theme-color" content="#c9bba6">
+  <meta name="color-scheme" content="light">
+  <title>How much actually went out?</title>
+  <meta name="description" content="You cannot say what the bets came to. A record of bets already placed. $37.">
+  <link rel="preload" href="images/waiting.jpg" as="image">
+  <link rel="preload" href="fonts/instrument-serif-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="board">
-    <header class="mast">
-      <h1>Bet Record</h1>
-      <p class="honest">A record of your bets, not a way to win.</p>
-      <p class="feeling">You remember the feeling. Not what you bet.</p>
-    </header>
-
-    <section class="kit" aria-labelledby="kit-title">
-      <figure class="cover">
-        <img
-          src="images/bet-log.png"
-          width="840"
-          height="520"
-          alt="A blank bet log. Columns for the date, the bet, the stake, and the result, plus lines for what you set aside and what is left."
-          fetchpriority="high">
-        <figcaption>Bet log, bankroll page, and a weekly result sheet.</figcaption>
-      </figure>
-      <div class="score">
-        <h2 id="kit-title">Bet Record Kit</h2>
-        <p class="price"><span class="usd">$</span>37</p>
+  <main>
+    <section class="hero">
+      <img
+        src="images/waiting.jpg"
+        width="720"
+        height="1280"
+        alt="A man in a kitchen at night, hands empty on the counter, looking at you and waiting."
+        fetchpriority="high">
+      <div class="offer">
+        <h1>You cannot say what the bets came to.</h1>
+        <p class="price">$37</p>
+        <button type="button" class="buy" data-sku="kit">Get the record</button>
       </div>
-      <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
-      <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
     </section>
 
-    <section class="pick" aria-labelledby="pick-title">
-      <h2 id="pick-title">Or pick one</h2>
-      <ol class="items">
-        <li class="item">
-          <div class="item-head">
-            <h3><span class="idx">01</span> Bet Log</h3>
-            <p class="item-price"><span class="usd">$</span>17</p>
-          </div>
-          <p>Every bet, stake, and result in one place.</p>
-          <button type="button" class="buy" data-sku="betLog">Get the Bet Log</button>
+    <section class="cost" aria-labelledby="cost-title">
+      <h2 id="cost-title">The month does not match the story.</h2>
+      <p>The charge is already there. It is not the story you can tell. A win is easy to say again. A loss is in a screenshot you will not open while someone is standing there.</p>
+      <p>So it stays “about even.” With no figure, the fight is about whether you are being straight. You also stake the same thing twice. The first one only lived in your head.</p>
+    </section>
+
+    <section class="relief" aria-labelledby="relief-title">
+      <h2 id="relief-title">One record. The losses are in it.</h2>
+      <p>Someone asks how much went out. You answer with a number you can both look at. The month is not a surprise you find in the bank. If there is a fight, it is about that figure.</p>
+      <p class="limit">A record of bets already placed. Not a way to win.</p>
+    </section>
+
+    <section class="apart" aria-labelledby="apart-title">
+      <h2 id="apart-title">Or one file</h2>
+      <ul>
+        <li>
+          <span class="name">Bet Log</span>
+          <span class="what">Every bet, the stake, and how it settled.</span>
+          <span class="amt">$17</span>
         </li>
-        <li class="item">
-          <div class="item-head">
-            <h3><span class="idx">02</span> Bankroll Page</h3>
-            <p class="item-price"><span class="usd">$</span>12</p>
-          </div>
-          <p>What you set aside, what is left.</p>
-          <button type="button" class="buy" data-sku="bankrollPage">Get the Bankroll Page</button>
+        <li>
+          <span class="name">Bankroll Page</span>
+          <span class="what">What you set aside, and what is left.</span>
+          <span class="amt">$12</span>
         </li>
-        <li class="item">
-          <div class="item-head">
-            <h3><span class="idx">03</span> Week Result Sheet</h3>
-            <p class="item-price"><span class="usd">$</span>15</p>
-          </div>
-          <p>The week's record on one page.</p>
-          <button type="button" class="buy" data-sku="weekResultSheet">Get the Week Result Sheet</button>
+        <li>
+          <span class="name">Week Result Sheet</span>
+          <span class="what">The week on one page.</span>
+          <span class="amt">$15</span>
         </li>
-      </ol>
+      </ul>
+      <p class="sum">Apart, those are $44.</p>
+      <button type="button" class="buy" data-sku="kit">Get the record</button>
+      <p class="arrive">Instant PDF. Print it and write in it. Not an app.</p>
     </section>
-
-    <section class="kit kit-again" aria-labelledby="kit-again-title">
-      <h2 id="kit-again-title">Bet Record Kit</h2>
-      <p class="what">The bet log, the bankroll page, and the week result sheet.</p>
-      <p class="price price-again"><span class="usd">$</span>37</p>
-      <p class="split">Separately <span class="math">$17 + $12 + $15 = $44</span>.</p>
-      <button type="button" class="buy" data-sku="kit">Get the $37 kit</button>
-    </section>
-
-    <section class="delivery" aria-labelledby="delivery-title">
-      <h2 id="delivery-title">Instant PDF</h2>
-      <p class="delivery-lead">Print it. Fill it in.</p>
-      <figure class="cover cover-use">
-        <img
-          src="images/bet-log-pencil.png"
-          width="840"
-          height="520"
-          alt="The same bet log, with a pencil resting on the blank rows."
-          loading="lazy">
-      </figure>
-      <p>The file comes right away. Write the bet, the stake, and the result.</p>
-    </section>
-
-    <footer class="colophon">
-      <p>Blank pages for a record you keep yourself.</p>
-    </footer>
 
     <p id="checkout-note" class="checkout-note" role="status" aria-live="polite"></p>
     <noscript>
-      <p class="noscript">Turn on JavaScript to use the checkout buttons.</p>
+      <p class="noscript">Turn on JavaScript to use the button.</p>
     </noscript>
   </main>
   <script src="checkout.config.js"></script>

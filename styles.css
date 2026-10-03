@@ -139,6 +139,18 @@ main {
   transform: translateY(1px);
 }
 
+.under {
+  margin: 0;
+  padding:
+    1.35rem
+    max(1.2rem, env(safe-area-inset-right))
+    0
+    max(1.2rem, env(safe-area-inset-left));
+  color: var(--dim);
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
 .cost,
 .relief,
 .apart {
@@ -171,10 +183,6 @@ h2 {
 
 .relief {
   padding-top: 2.75rem;
-}
-
-.limit {
-  color: var(--dim);
 }
 
 .apart {
